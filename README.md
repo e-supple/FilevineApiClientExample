@@ -31,7 +31,7 @@ This client encapsulates all of this logic into a simple-to-use class, so you ca
     -   **Client Secret** (`FV_CLIENT_SECRET`)
     -   **Personal Access Token (PAT)** (`FV_PAT`)
 
-You can generate these credentials from your Filevine Developer Portal.
+You can generate these credentials from your Filevine Developer Portal. This was actually more difficult and confusing than it needed to be. If you are familiar with doing things like this in other apps, it may be easier, but if you can save the time and jump on the Zoom call becasue I think you may need to create a service account and get the Client ID and Secret from there. This does not use their API keys as that is currently being phased out, but there are still other key-pairs that need to be genreated. Once you get the above credentials, it's  pretty easy. 
 
 ## Installation
 
