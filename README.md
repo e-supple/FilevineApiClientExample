@@ -251,6 +251,14 @@ async def get_project_item_details(
         raise HTTPException(status_code=500, detail=f"An error occurred: {e}")
 ```
 
+## Webhook Serveless Function
+Filevine does allow you to subscribe to webhook events, once you go through the documentation and figure our which collection and selector that you are interested in, it is pretty easy to just run a serverless funciton in the cloud (Digital Oceans | gCloud) 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=fbd181e78c0b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+Attached soure code for the serverless function I am currently running in the cloud. 
+
+Digital Oceans referal link for $200 (new sign up) https://m.do.co/c/fbd181e78c0b
+
 By using this pattern, your application remains clean, efficient, and easy to test, as you can easily swap out the dependency for a mock client during unit tests.
 
 ## Support This Project
